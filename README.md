@@ -49,7 +49,7 @@ What if we want to say hi to a special guest, like Neil deGrasse Tyson? When we 
 
 ``` javascript
 var specialGuest = "Neil deGrasse Tyson"
-"Hello, " + specialGuest + "!" // "Hello, Neil deGrasse Tyson!"
+"Hello, " + specialGuest + "Neil deGrasse Tyson!" // "Hello, Neil deGrasse Tyson!"
 ```
 
 This is called _concatenation_. Notice that `specialGuest` is _also_ a string!

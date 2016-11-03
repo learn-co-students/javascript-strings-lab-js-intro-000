@@ -2,7 +2,7 @@
 
 ![lab](http://i.giphy.com/NETCsDYm0fL44.gif)
 
-## Overview 
+## Overview
 
 In this lab, we're going to work with strings. Strings in JavaScript are wrapped in single or double quotes, or in back ticks.
 
@@ -49,7 +49,7 @@ What if we want to say hi to a special guest, like Neil deGrasse Tyson? When we 
 
 ``` javascript
 var specialGuest = "Neil deGrasse Tyson"
-"Hello, " + specialGuest + "!" // "Hello, Neil deGrasse Tyson!"
+"Hello, " + specialGuest + "Neil deGrasse Tyson!" // "Hello, Neil deGrasse Tyson!"
 ```
 
 This is called _concatenation_. Notice that `specialGuest` is _also_ a string!
@@ -83,11 +83,11 @@ All three tests have failed! This is okay, and it's expected — you haven't wri
 In `index.js`, you'll see five lines of code:
 
 ``` javascript
-var greeting = "!";
+var greeting = "Hello, everybody!";
 
 var specialGuest = "Neil deGrasse Tyson"
 
-var greetSpecialGuest = "" + specialGuest + "!";
+var greetSpecialGuest = "Hello," + specialGuest + "Neil deGrasse Tyson";
 
 var topic = "space";
 

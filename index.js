@@ -1,15 +1,4 @@
-var greeting = "Hello, everybody!";
-
-var specialGuest = "Neil deGrasse Tyson";
-
-var greetSpecialGuest = "Hello, " + specialGuest + "!";
-
-var topic = "space";
-
-var conversation = "Let's talk about ${topic}.";
-
-function sayHelloToIsabel() {
-  console.log("Hello Isabel!")
+function sayHello(){
+  console.log("hello!")
 }
-
-sayHelloToIsabel()
+sayHello()

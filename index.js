@@ -1,9 +1,8 @@
-var greeting = "";
+var greeting = "Hello, everybody!"; // Orig failed line: var greeting = "";
+var specialGuest = "Neil deGrasse Tyson" // No changes made
 
-var specialGuest = "Neil deGrasse Tyson"
+var greetSpecialGuest = "Hello, " + specialGuest + "!";// Orig failed line: var greetSpecialGuest = "" + specialGuest + "!";
 
-var greetSpecialGuest = "" + specialGuest + "!";
+var topic = "space"; // No changes made
 
-var topic = "space";
-
-var conversation = `${topic}`;
+var conversation = `Let's talk about ${topic}.`; // Orig failed line: var conversation = `${topic}`;

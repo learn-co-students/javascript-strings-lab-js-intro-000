@@ -1,6 +1,6 @@
 # JavaScript Strings Lab
 
-![lab](http://i.giphy.com/NETCsDYm0fL44.gif)
+![lab](https://i.giphy.com/NETCsDYm0fL44.gif)
 
 ## Overview 
 
@@ -8,7 +8,7 @@ In this lab, we're going to work with strings. Strings in JavaScript are wrapped
 
 ## Objectives
 
-1. Manipulate strings by hand in JavaScript
+1. Manipulate strings in JavaScript
 2. Practice interpolating with template literals
 
 ## Introduction
@@ -19,7 +19,7 @@ First, we need to practice greeting everyone. (I don't know about you, but I som
 
 One might think that we could just type
 
-``` javascript
+```js
 Hello, everybody!
 ```
 
@@ -27,32 +27,32 @@ in our browser's console and be done with it. Give it a try. (If you're on a Mac
 
 You should see something like
 
-``` shell
+```
 Uncaught ReferenceError: Hello is not defined(…)
 ```
 
 Well, that won't work. (This is why we practice!) In order to greet our guests, we need to tell JavaScript that we're using a **string**. A string is a collection of characters (letters, numbers, and symbols) wrapped in single or double quotes (or, as we'll see, in back ticks). So to greet everyone, we can write,
 
-``` javascript
+```js
 'Hello, everybody!'
 ```
 
 or
 
-``` javascript
+```js
 "Hello, everybody!"
 ```
 
-They're the same in this case.
+Single or double quotation marks can contain a string variable..
 
 What if we want to say hi to a special guest, like Neil deGrasse Tyson? When we wrap strings in single or double quotes, we can join them together using the `+` operator:
 
-``` javascript
+```js
 var specialGuest = "Neil deGrasse Tyson"
 "Hello, " + specialGuest + "!" // "Hello, Neil deGrasse Tyson!"
 ```
 
-This is called _concatenation_. Notice that `specialGuest` is _also_ a string!
+This is called _concatenation_. Notice that the value of the `specialGuest` variable is _also_ a string!
 
 **TOP TIP**: Your console might be getting a little full at this point. If at any point you'd like to clear it out and start fresh, you can either click the button in the top left corner of the console — in Chrome, it looks like this:
 
@@ -62,7 +62,7 @@ Alternatively, you can press `ctrl + L` or `command + K`. As long as you don't r
 
 When we wrap strings in back ticks, we can use placeholders (`${}`) and insert variables or evaluated JavaScript directly:
 
-``` javascript
+```js
 var specialGuest = "Neil deGrasse Tyson";
 
 `Hello, ${specialGuest}! High ${3 + 2}!` // "Hello, Neil deGrasse Tyson! High 5!"
@@ -76,14 +76,14 @@ You'll find a file called `index.js` in this directory. Your mission, should you
 
 You can run the tests using the `learn` command in your terminal or the Learn IDE. Give that a go now.
 
-![waiting](http://i.giphy.com/9c830567WqLCw.gif)
+![waiting](https://i.giphy.com/9c830567WqLCw.gif)
 
 All three tests have failed! This is okay, and it's expected — you haven't written any code yet, after all.
 
 In `index.js`, you'll see five lines of code:
 
-``` javascript
-var greeting = "!";
+```js
+var greeting = "";
 
 var specialGuest = "Neil deGrasse Tyson"
 
@@ -98,11 +98,11 @@ Each line has a test associated with it. When the tests fail, they show us what 
 
 When you first run `learn`, you should see something like this:
 
-![test fail](https://curriculum-content.s3.amazonaws.com/skills-based-js/javascript-strings-lab/javascript-strings-lab-test.png)
+![All tests failing.](https://user-images.githubusercontent.com/17556281/27979675-b6575498-6345-11e7-8c9d-052c2d4d3e96.png)
 
 Let's walk through that first error together. First, we see the test title:
 
-``` bash
+```bash
 1) strings defines `greeting`:
 ```
 
@@ -112,10 +112,11 @@ we're handling strings.
 
 Continuing on with the test output, we can now make better sense of the next few lines:
 
-``` bash
-AssertionError: '' == 'Hello, everybody!'
+```bash
+AssertionError: '!' == 'Hello, everybody!'
 + expected - actual
 
+- !
 +Hello, everybody!
 ```
 
@@ -133,13 +134,13 @@ Next, the title tells us that `index.js` "defines `greeting`." Let's look in `in
 
 What if, instead of assigning `""` to `greeting`, we assign `"Hello, everybody!"`, like the test expects. Go ahead and change that line in `index.js` so it reads
 
-``` javascript
+```js
 var greeting = "Hello, everybody!";
 ```
 
 save the file, and rerun your tests. You should see
 
-![first test passes!](https://curriculum-content.s3.amazonaws.com/skills-based-js/javascript-strings-lab/javascript-strings-lab-test-pass.png)
+![First test passes!](https://user-images.githubusercontent.com/17556281/27979674-b65255f6-6345-11e7-8fca-d71760c514ef.png)
 
 Nice! You got the first test to pass.
 
@@ -147,7 +148,7 @@ Now use the skills that you learned above to read through the rest of the test o
 
 **NOTE**: Because we're dealing with some low-level language features, you might spot some easy ways to "cheat" on this lab, or this lab might seem frustratingly easy. We've given you some starter code to point you in the right direction — try to solve the lab as intended! You can then compare your solution with ours (found in the `solution` branch of this repository).
 
-When your tests are passing, submit your answer by typing in `learn submit` in the command line or else create a pull request (use Learn submit if "pull request" sounds a bit terrifying).
+When your tests are passing, submit your answer by typing in `learn submit` in the command line or else create a pull request (use `learn submit` if "pull request" sounds a bit terrifying).
 
 Good luck!
 

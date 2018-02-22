@@ -1,9 +1,21 @@
-var greeting = "";
+var greeting = "hi everyone";
+AssertionError: '!' == 'hi everyone'
++ expected - actual
 
-var specialGuest = "Neil deGrasse Tyson"
+- !
++hi everyone!
+
+
+var specialGuest = "pakeera reddy";
+
 
 var greetSpecialGuest = "" + specialGuest + "!";
 
-var topic = "space";
+var topic = "IT professionals";
+AssertionError: 'topic' == 'IT professionals'
++ expected - actual
+
+- !
++IT professionals!
 
 var conversation = `${topic}`;

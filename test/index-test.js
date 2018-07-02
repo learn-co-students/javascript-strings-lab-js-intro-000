@@ -7,11 +7,13 @@ var topic = "space";
 var conversation = `${topic}`;
 
 it('defines `greeting`', function() {
-  expect(greeting).toEqual("Hello, everybody!")
-})
+  expect(greeting).toEqual("Hello, everybody!");
+});
 
 it(greetSpecialGuesreetSpecialGuest`', function() {
   expect(greetSpecialGuest).toEqual"('Hello, ${specialGuest}!`);
 
-it('interpolates a string in `conversation`', function()expect(conversation).toEqual ${topic};
- 
+it('interpolates a string in `conversation`', function() {
+  expect(conversation).toEqual(`${topic}`);
+});  
+

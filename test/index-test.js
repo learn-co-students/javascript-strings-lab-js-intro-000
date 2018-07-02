@@ -10,7 +10,7 @@ it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!");
 });
 
-it(greetsSpecialGuesreetSpecialGuest`', function() {
+it(greetSpecialGuesreetSpecialGuest`', function() {
   expect(greetSpecialGuest).toEqual"('Hello, ${specialGuest}!`);
 
 it('interpolates a string in `conversation`', function() {

@@ -2,7 +2,7 @@
 
 ![lab](https://i.giphy.com/NETCsDYm0fL44.gif)
 
-## Overview 
+## Overview
 
 In this lab, we're going to work with strings. Strings in JavaScript are wrapped in single or double quotes, or in back ticks.
 
@@ -118,7 +118,6 @@ AssertionError: '!' == 'Hello, everybody!'
 
 - !
 +Hello, everybody!
-```
 
 This is a lot to take in, so we'll go through it slowly.
 

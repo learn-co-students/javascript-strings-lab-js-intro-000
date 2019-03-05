@@ -13,3 +13,5 @@ it('interpolates a string in `conversation`', function() {
 })
 
 var greeting = 'Hello, everybody!';
+
+if (something){}

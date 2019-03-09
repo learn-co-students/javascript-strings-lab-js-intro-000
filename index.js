@@ -4,11 +4,12 @@ var greeting = "Hello, everybody!";
 
 var specialGuest = "Neil deGrasse Tyson"
 
-var greetSpecialGuest = "Hello, everybody!" + specialGuest + "!";
+var greetSpecialGuest = "Hello, " + specialGuest + "!"
 
-var topic = "space";
+var topic = "happyBirthday";
 
-var conversation = `${HappyBirthday}`;
+var conversation = `${HappyBirthday}!`;
+
 
 if (something){}
 if (basicTeenager){}

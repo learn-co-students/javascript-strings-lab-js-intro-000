@@ -2,7 +2,7 @@
 
 ![lab](https://i.giphy.com/NETCsDYm0fL44.gif)
 
-## Overview 
+## Overview
 
 In this lab, we're going to work with strings. Strings in JavaScript are wrapped in single or double quotes, or in back ticks.
 
@@ -153,3 +153,5 @@ When your tests are passing, submit your answer by typing in `learn submit` in t
 Good luck!
 
 <p class='util--hide'>View <a href='https://learn.co/lessons/javascript-strings-lab'>JavaScript Strings Lab</a> on Learn.co and start learning to code for free.</p>
+var specialGuest = "Niel deGrasse Tyson"
+"Hello" + specialGuest + "!"

@@ -2,7 +2,7 @@
 
 ![lab](https://i.giphy.com/NETCsDYm0fL44.gif)
 
-## Overview 
+## Overview
 
 In this lab, we're going to work with strings. Strings in JavaScript are wrapped in single or double quotes, or in back ticks.
 
@@ -20,7 +20,7 @@ First, we need to practice greeting everyone. (I don't know about you, but I som
 One might think that we could just type
 
 ```js
-Hello, everybody!
+'Hello, everybody!'
 ```
 
 in our browser's console and be done with it. Give it a try. (If you're on a Mac, that would be `Command` + `Option` + `J` together.)
@@ -83,15 +83,16 @@ All three tests have failed! This is okay, and it's expected — you haven't wri
 In `index.js`, you'll see five lines of code:
 
 ```js
-var greeting = "";
+var greeting = 'Hello, everybody!'
 
 var specialGuest = "Neil deGrasse Tyson"
 
-var greetSpecialGuest = "" + specialGuest + "!";
+var greetSpecialGuest = "Hello, " + specialGuest + "!"
 
-var topic = "space";
 
-var conversation = `${topic}`;
+var topic = "Let\'s talk about space."
+
+var conversation = `${topic}`
 ```
 
 Each line has a test associated with it. When the tests fail, they show us what the _expected_ value is — your job is to make that expectation a reality by modifying the code provided.

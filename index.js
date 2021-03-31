@@ -1,6 +1,6 @@
-var greeting = "";
+var greeting = "Hello, everybody!";
 
-var specialGuest = "Neil deGrasse Tyson"
+var specialGuest = "Neil deGrasse Tyson" "Hello, " + specialGuest + "!"
 
 var greetSpecialGuest = "" + specialGuest + "!";
 

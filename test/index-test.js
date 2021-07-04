@@ -1,4 +1,8 @@
 /*global concatenatedString, describe, interpolatedString, it, myString */
+const expect = require('expect')
+const fs = require('fs')
+const jsdom = require('jsdom')
+const path = require('path')
 
 it('defines `greeting`', function() {
   expect(greeting).toEqual("Hello, everybody!")
